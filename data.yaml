@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Mencontek', 'Tidak Mencontek']
+
+roboflow:
+  workspace: billet-xugb7
+  project: first-one-w2ogy-lw2td
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/billet-xugb7/first-one-w2ogy-lw2td/dataset/1
